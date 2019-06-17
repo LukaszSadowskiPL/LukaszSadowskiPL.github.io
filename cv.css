@@ -1,0 +1,48 @@
+#container
+{
+ width: 1000px;
+ margin-left: auto;
+ margin-right: auto; 
+
+}
+#logo
+{
+text-align: center;
+padding: 10px;
+}
+#facts
+{
+float:left;
+background-color: green;
+width: 200px;
+min-height: 590px;
+padding: 10px;
+}
+#career
+{
+float:left;
+padding: 10px;
+width:590px;
+min-height: 590px;
+}
+#footer
+{
+clear:both;
+text-align: center;
+}
+.bigtitle
+{
+font-size: 16px;
+color: blue;
+font-weight: 900
+}
+.date
+{
+font-size: 15px;
+font-weight: 500;
+letter-spacing: 2px;
+}
+.foto
+{
+text-align: center;
+}
