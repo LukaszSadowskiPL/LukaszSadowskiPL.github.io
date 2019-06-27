@@ -4,15 +4,13 @@ font-family: 'Courier New', Courier, monospace;
 
 .flexbox-container{
   width: 100%;
-  height: 20%;
+  height: 25%;
   margin-top: 7%;
   background-color: grey;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.flexbox-container div{
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 img{
@@ -27,4 +25,10 @@ img{
   text-align: center;
   background-color: gray;
   width: 100%;
+}
+
+@media (min-width: 700px){
+  .flexbox-container{
+    flex-direction: row;
+  }
 }
