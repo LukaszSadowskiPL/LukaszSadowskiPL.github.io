@@ -14,7 +14,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 img{
-  max-width: 100%; 
+  max-width: 1000%; 
   max-height: 100%;
   overflow: auto;
 }
