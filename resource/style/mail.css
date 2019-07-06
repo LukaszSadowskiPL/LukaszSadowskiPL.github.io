@@ -25,6 +25,10 @@ input[type=submit] {
    text-transform: uppercase;
 }
 
+input[type=submit]:hover {
+  background-color: #45a049;
+
+}
 .container {
     border-radius: 5px;
     padding: 20px;
