@@ -4,13 +4,12 @@ font-family: 'Courier New', Courier, monospace;
 
 .flexbox-container{
   width: 100%;
-  height: 90%;
+  height: 25%;
   margin-top: 7%;
-  background-color: grey;
+  background-color: rgb(192, 7, 7);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-direction: column;
 }
 
 img{
@@ -23,13 +22,17 @@ img{
   position: fixed;
   bottom: 0;
   text-align: center;
-  background-color: gray;
+  background-color: rgb(192, 7, 7);
   width: 100%;
+  font-size: large;
 }
 
-@media (min-width: 1000px){
-  .flexbox-container{
-    flex-direction: row;
-    height: 15%;
+@media (max-width: 1024px){
+  .flexbox-container > img {
+    width: fit-content;
+  }
+
+  .footer{
+    font-size:2em;
   }
 }
