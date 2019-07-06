@@ -7,9 +7,8 @@ input[type=text], textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  border-bottom: 1px solid gray;
+  border-bottom: 3px solid gray;
   transition: all 4s ease-in-out;
-  
 }
 
 input[type=submit] {
@@ -22,18 +21,18 @@ input[type=submit] {
    border-color: transparent;
    font-size: 20px;
    letter-spacing: 2px;
+   text-align: center;
+   text-transform: uppercase;
 }
+
 .container {
     border-radius: 5px;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 h2 {
     font-family: fantasy;
     text-align: center;
 }
 
-input[type=submit:hover] {
-  background-color: #fff
-  cursor: pointer;
-}
