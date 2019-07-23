@@ -8,20 +8,15 @@ body, html {
   box-sizing: border-box;
 }
 
-.bg-img {
-  /* The image used */
+.img {
   background-image: url("../photo/4.jpg");
-  
   min-height: 710px;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* Add styles to the form container */
 .container {
   position: relative;
   top: 20px;
@@ -39,7 +34,7 @@ body, html {
   
 }
 
-/* Full-width input fields */
+
 input[type=text], textarea {
   width: 100%;
   padding: 15px;
@@ -57,7 +52,7 @@ input[type=text]:focus, input[type=message]:focus {
   outline: none;
 }
 
-/* Set a style for the submit button */
+
 .btn {
   background-color: #4CAF50;
   color: white;
