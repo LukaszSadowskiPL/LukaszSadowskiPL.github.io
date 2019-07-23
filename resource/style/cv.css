@@ -75,11 +75,3 @@ body {
     flex-direction: column;
   }
 }
-
-
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
