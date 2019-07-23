@@ -34,7 +34,6 @@ body {
 
 
 .row {  
-  display: -ms-flexbox; 
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -43,7 +42,6 @@ body {
 
 
 .side {
-  -ms-flex: 30%; /* IE10 */
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
@@ -51,7 +49,6 @@ body {
 }
 
 .main {   
-  -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
   padding: 20px;
