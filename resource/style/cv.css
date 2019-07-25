@@ -23,13 +23,17 @@ body {
 }
 
 .main h2 {
-  color: #4CAF50 ;
-  text-align: center;
+  color: #4caF50 ;
+  position: inherit;
+  margin-left: 40%;
 }
+
+
 
 .side h4 {
   color: #4CAF50 ;
-  text-align: center ;
+  position: inherit;
+  margin-left: 40%;
 }
 
 
